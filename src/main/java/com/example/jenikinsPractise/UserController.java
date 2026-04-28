@@ -11,4 +11,8 @@ public class UserController {
     String greet(){
         return "hi  hello how are u ";
     }
+    @GetMapping("/hi")
+    String home(){
+        return "hi bro";
+    }
 }
