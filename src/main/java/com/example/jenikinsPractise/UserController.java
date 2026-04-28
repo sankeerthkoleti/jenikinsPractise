@@ -9,6 +9,6 @@ public class UserController {
 
     @GetMapping("/")
     String greet(){
-        return "hi";
+        return "hi  hello";
     }
 }
